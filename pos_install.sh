@@ -28,6 +28,7 @@ sudo apt-get install sqlitebrowser -y
 sudo apt install npm -y
 sudo apt install winff -y
 sudo apt install gamemode -y
+sudo apt install jstest-gtk -y
 sudo apt install openjdk-11-jdk -y
 sudo apt install adb -y
 sudo apt install fastboot -y
@@ -45,10 +46,11 @@ sudo snap install sublime-text --classic
 mkdir pg
 cd pg
 wget -c https://www.tonelib.net/download/ToneLib-GFX-amd64.deb
+wget -c https://generalarcade.com/gamepadtool/linux/gamepadtool_1.2_amd64.deb
+wget https://download.virtualbox.org/virtualbox/6.1.18/virtualbox-6.1_6.1.18-142142~Ubuntu~eoan_amd64.deb
 wget -c https://downloads.tuxfamily.org/godotengine/3.2.3/Godot_v3.2.3-stable_x11.64.zip
 wget -c https://github.com/LMMS/lmms/releases/download/v1.2.2/lmms-1.2.2-linux-x86_64.AppImage
 wget -c https://github.com/LMMS/lmms/releases/download/v1.3.0-alpha.1/lmms-1.3.0-alpha.1.33%2Bg4f74151-linux-x86_64.AppImage
-wget https://download.virtualbox.org/virtualbox/6.1.18/virtualbox-6.1_6.1.18-142142~Ubuntu~eoan_amd64.deb
 wget -c https://download.virtualbox.org/virtualbox/6.1.18/Oracle_VM_VirtualBox_Extension_Pack-6.1.18.vbox-extpack
 
 
