@@ -4,6 +4,7 @@
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo add-apt-repository ppa:damentz/liquorix
 sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo add-apt-repository ppa:alexlarsson/flatpak
 #sudo ubuntu-drivers autoinstall -y
 #
 sudo apt install nvidia-driver-440 -y
@@ -23,6 +24,10 @@ sudo apt-get install g++ -y
 sudo apt install git -y
 sudo apt install nodejs -y
 sudo apt install flatpak -y
+sudo apt install gnome-software-plugin-flatpak -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.leinardi.gwe -y
+flatpak install flathub nl.hjdskes.gcolor3 -y
 sudo apt-get install geany -y
 sudo apt-get install sqlite3 -y
 sudo apt-get install libsqlite3-dev -y
