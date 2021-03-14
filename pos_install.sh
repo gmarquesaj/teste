@@ -19,9 +19,11 @@ sudo apt install lmms -y
 sudo apt install qbittorrent -y
 sudo apt install sooperlooper -y
 sudo apt-get install qjack* -y
+sudo apt-get install g++ -y
 sudo apt install git -y
 sudo apt install nodejs -y
 sudo apt install flatpak -y
+sudo apt-get install geany -y
 sudo apt-get install sqlite3 -y
 sudo apt-get install libsqlite3-dev -y
 sudo apt-get install sqlitebrowser -y
