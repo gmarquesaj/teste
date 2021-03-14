@@ -28,6 +28,7 @@ sudo apt install gnome-software-plugin-flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.leinardi.gwe -y
 flatpak install flathub nl.hjdskes.gcolor3 -y
+flatpak install flathub org.gnome.Chess -y
 sudo apt-get install geany -y
 sudo apt-get install sqlite3 -y
 sudo apt-get install libsqlite3-dev -y
