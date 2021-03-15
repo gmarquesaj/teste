@@ -7,7 +7,7 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo add-apt-repository ppa:alexlarsson/flatpak
 #sudo ubuntu-drivers autoinstall -y
 #
-sudo apt install nvidia-driver-440 -y
+sudo apt install nvidia-driver-460 -y
 sudo apt install nvidia-cuda-toolkit -y
 sudo apt install gdebi -y
 sudo apt install gedit -y
@@ -66,7 +66,7 @@ unzip Godot_v3.2.3-stable_x11.64.zip
 chmod +x *.AppImage
 rm Godot_v3.2.3-stable_x11.64.zip
 sudo dpkg -i *.deb
-
+sudo apt-get install -f
 cd ..
 #
 sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64 -y
