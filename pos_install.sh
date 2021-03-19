@@ -6,6 +6,8 @@ sudo add-apt-repository ppa:damentz/liquorix -y
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo add-apt-repository ppa:alexlarsson/flatpak -y
 sudo add-apt-repository ppa:flexiondotorg/mangohud -y
+sudo add-apt-repository ppa:numix/ppa -y
+
 #
 sudo apt install nvidia-driver-460 -y
 sudo apt install nvidia-cuda-toolkit -y
@@ -41,6 +43,15 @@ sudo apt install jstest-gtk -y
 sudo apt install openjdk-11-jdk -y
 sudo apt install adb -y
 sudo apt install fastboot -y
+sudo apt install ubuntu-restricted-extras -y
+sudo apt install gnome-tweaks -y
+sudo apt install rar unrar p7zip-full p7zip-rar -y
+sudo apt install laptop-mode-tools -y
+sudo apt install synaptic -y
+sudo apt-get install numix-icon-theme-circle -y
+
+
+
 #
 sudo nvidia-xconfig --cool-bits=28
 #
@@ -87,7 +98,8 @@ sudo snap install snap-store
 sudo snap install flameshot
 sudo snap install sublime-text --classic
 #
-
+sudo apt-get autoclean
+sudo apt-get autoremove -y
 
 
 
